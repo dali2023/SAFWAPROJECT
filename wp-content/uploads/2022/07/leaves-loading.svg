@@ -1,0 +1,48 @@
+<svg class="circle" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160px" height="160px" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid">
+  <style>
+    .circle { animation: rotate 6s infinite linear; }
+    .circle path:nth-child(3n + 0) { animation: leafColor1 2s infinite linear; }
+    .circle path:nth-child(3n + 1) { animation: leafColor2 2s infinite linear; }
+    .circle path:nth-child(3n + 2) { animation: leafColor3 2s infinite linear; }
+    @keyframes rotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes leafColor1 { 0% { fill: #4BAF47; } 33% { fill: #EEC044; } 66% { fill: #C5CE38; } 100% { fill: #4BAF47; } }
+    @keyframes leafColor2 { 0% { fill: #C5CE38; } 33% { fill: #4BAF47; } 66% { fill: #EEC044; } 100% { fill: #C5CE38; } }
+    @keyframes leafColor3 { 0% { fill: #EEC044; } 33% { fill: #C5CE38; } 66% { fill: #4BAF47; } 100% { fill: #EEC044; } }
+  </style>
+<g transform="translate(50,50) scale(1) translate(-50,-50)">
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(0 50 50)"></path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(30 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(60 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(90 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(120 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(150 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(180 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(210 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(240 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(270 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(300 50 50)">
+  </path>
+
+  <path d="M44.6,20.6c2.6,4.4,7,7.1,11.7,7.7c1.9-4.4,1.7-9.5-0.8-14c-2.6-4.4-7-7.1-11.7-7.7C41.9,11,42,16.2,44.6,20.6z" transform="rotate(330 50 50)">
+  </path>
+</g>
+</svg>

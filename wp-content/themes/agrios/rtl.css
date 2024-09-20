@@ -1,0 +1,617 @@
+/*
+ * Theme Name: Agrios
+ * Version: 1.0
+ * Description: Agrios Construction WordPress Theme
+ * Author: TPLabs
+ * Theme URI: http://tplabs.co/agrios
+ * Author URI: https://themeforest.net/user/tplabs
+ * License: Custom license
+ * License URI: Licensing/README_License.txt
+ * Tags: left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, post-formats, sticky-post, threaded-comments, translation-ready
+ * Text Domain: agrios
+ * Tested up to: 7.4.4
+ * Requires PHP: 5.4.2
+**/
+
+/* TABLE OF CONTENTS
+
+ * MAIN STYLE
+   * General
+   * Extra Classes
+   * Reverse Icon
+   * Themes
+   * Woocommerce Page
+   * Widgets
+   * Elementor Addons
+
+-------------------------------------------------------------- */
+/* 
+General 
+----------------------------------------------------- */
+
+body {
+    direction:rtl;
+    unicode-bidi:embed;
+}
+
+select {
+    background-position: 30px calc(50% + 3px);
+}
+
+select,
+input,
+textarea {
+    direction: rtl;
+}
+
+.master-cf7 .wpcf7 select {
+    background-position: 40px calc(50% + 3px);
+}
+
+/*
+Extra Classes
+----------------------------------------------------- */
+.align-left { text-align: right; }
+.align-right { text-align: left; }
+
+/*
+Reverse Icon
+----------------------------------------------------- */
+/* Change direction of icon. Ex: arrow left -> arrow right */
+.master-slider .slide ul li::before {
+    content: "\e94e" !important;
+}
+
+.mc4wp-form .submit-wrap button:before {
+    content: "\e952" !important;
+}
+
+.ci-arrow-pointing-to-right:before {
+    content: "\e94e" !important;
+}
+
+.ci-arrow-pointing-to-left:before {
+    content: "\e94f" !important;
+}
+
+.ci-right-arrow1:before {
+    content: "\e93e" !important;
+}
+
+.ci-left-arrow1:before {
+    content: "\e93f" !important;
+}
+
+.ci-right-arrow:before {
+    content: "\e952" !important;
+}
+
+.ci-left-arrow:before {
+    content: "\e953" !important;
+}
+
+.ci-chevron-right:before {
+    content: "\f053" !important;
+}
+
+.ci-chevron-left:before {
+    content: "\f054" !important;
+}
+
+.widget_product_categories > ul > li:before, 
+.widget.widget_recent_comments > ul > li:before, 
+.widget.widget_archive ul li a::before, 
+.widget.widget_nav_menu ul li a::before, 
+.widget.widget_meta ul li a::before, 
+.widget.widget_categories ul li a:before, 
+.widget.widget_pages ul li a:before, 
+.woocommerce-page .woocommerce-message:before, 
+.woocommerce-page .woocommerce-info:before, 
+.woocommerce-page .woocommerce-error:before {
+    content: "\f053";
+}
+
+/* 
+Theme 
+----------------------------------------------------- */
+/* Header */
+#site-logo-inner {
+    margin-left: 30px; margin-right: 0;
+}
+
+.header-socials {
+    margin-right: 0; margin-left: 30px;
+}
+
+.header-info .content {
+    padding-right: 24px; padding-left: 0;
+    margin-left: 18px; margin-right: 0;
+}
+
+.header-info .content:before {
+    left: unset; right: 0;
+}
+
+.header-button {
+    margin-left: 0; margin-right: 30px;
+}
+
+/* Featured title */
+#featured-title #breadcrumbs {
+    right: unset; left: 0;
+}
+
+#featured-title #breadcrumbs .breadcrumb-trail > a, 
+#featured-title #breadcrumbs .breadcrumb-trail > span {
+    padding-right: 0; padding-left: 22px;
+}
+
+#featured-title #breadcrumbs .breadcrumb-trail > a:not(:last-child):before {
+    right: unset; left: 8px;
+}
+
+/* Menu */
+.agrios-menu {
+    text-align: start;
+}
+
+.agrios-menu > ul > li.menu-item-has-children > a span {
+    padding-left: 12px; padding-right: 0px;
+}
+
+.agrios-menu > ul > li > a span:before {
+    left: 0; right: -20px;
+}
+
+.agrios-menu .sub-menu li a span {
+    padding-left: 0px; padding-right: 20px;
+    transform: translateX(20px);
+}
+
+.agrios-menu > ul > li.menu-item-has-children > a span:after {
+    left: 0; right: unset;
+}
+
+.agrios-menu .sub-menu > li.menu-item-has-children > a:after {
+    left: 25px; right: unset;
+    transform: translateY(-50%) rotate(90deg);
+}
+
+.agrios-menu .sub-menu > li.menu-item-has-children:hover > a:after {
+    transform: translateY(-50%) rotate(0deg);
+}
+
+.agrios-menu-panel li .arrow {
+    right: unset; left: 0;
+}
+
+.agrios-menu-panel li.active > .arrow {
+    transform: rotate(90deg);
+}
+
+.align-right .agrios-menu > .menu > .menu-item:last-child { padding-left: 0 !important; }
+.align-left .agrios-menu > .menu > .menu-item:first-child { padding-right: 0 !important; }
+
+
+.menu-sep-yes .agrios-menu .menu-item:not(:last-child):after {
+    left: 0; right: unset;
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width: 1024px) {
+    .align--tabletright .agrios-menu .menu-item:last-child { padding-left: 0 !important; }
+    .align--tabletleft .agrios-menu .menu-item:first-child { padding-right: 0 !important; }
+}
+
+@media (max-width: 767px) {
+    .align--mobileright .agrios-menu .menu-item:last-child { padding-left: 0 !important; }
+    .align--mobileleft .agrios-menu .menu-item:first-child { padding-right: 0 !important; }
+}
+
+/* Cart */
+.agrios-cart {
+    margin-left: 0; margin-right: 30px;
+}
+
+.agrios-cart .nav-shop-cart {
+    text-align: right;
+}
+
+/* Post Single */
+.hentry .post-meta .post-meta-content-inner .item {
+    margin-right: 0; margin-left: 18px;
+}
+
+.hentry .post-meta .post-meta-content-inner .item:after {
+    right: -13px;
+}
+
+/* Author */
+.hentry .post-author .author-desc {
+    padding-right: 35px; padding-left: 0;
+}
+
+/* Comment */
+.comment-list article .gravatar {
+    float: right;
+    margin: 0 0 0 40px;
+}
+
+.comment-edit-link {
+    float: left;
+}
+
+/* Search full screen */
+.search-style-fullscreen .search-submit {
+    text-indent: 9999px;
+    right: unset; left: 8px;
+}
+
+.search-style-fullscreen .search-close {
+    right: unset; left: 30px;
+}
+
+/* Project Single */
+.single-project-inner .info-wrap {
+    left: 40px; right: unset;
+}
+
+/* Woocommerce 
+----------------------------------------------------- */
+.woo-single-post-class .summary .woocommerce-review-link {
+    left: unset; right: 110px;
+}
+
+.woo-single-post-class .summary .cart .quantity {
+    float: right;
+    margin-left: 30px; margin-right: 0;
+}
+
+.woo-single-post-class .woocommerce-tabs .entry-content .meta .woocommerce-review__published-date {
+    padding-right: 30px; padding-left: 0;
+}
+
+/* Widgets
+----------------------------------------------------- */
+.widget.widget_archive ul li a, 
+.widget.widget_nav_menu ul li a, 
+.widget.widget_meta ul li a, 
+.widget.widget_categories ul li a, 
+.widget.widget_pages ul li a {
+    padding-left: 0; padding-right: 25px;
+}
+
+.widget.widget_archive ul li a::before, 
+.widget.widget_nav_menu ul li a::before, 
+.widget.widget_meta ul li a::before, 
+.widget.widget_categories ul li a:before, 
+.widget.widget_pages ul li a:before {
+    left: unset; right: 0;
+}
+
+.widget.widget_categories ul li > span, 
+.widget.widget_archive ul li > span {
+    float: left;
+}
+
+.widget_archive ul ul, 
+.widget_categories ul ul, 
+.widget_meta ul ul, 
+.widget_nav_menu ul ul, 
+.widget_pages ul ul, 
+.widget_recent_comments ul ul, 
+.widget_recent_entries ul ul, 
+.widget_rss ul ul {
+    padding-left: 0; padding-right: 16px;
+}
+
+.widget.widget_tag_cloud .tagcloud a {
+    float: right;
+}
+
+/* Widget Search */
+#sidebar .widget.widget_search .search-form .search-submit {
+    right: unset; left: 30px;
+}
+
+.widget.widget_product_search .woocommerce-product-search .search-submit {
+    right: unset; left: 20px;
+}
+
+/* 
+Elementor Addons
+----------------------------------------------------- */
+@media (max-width: 1024px) {
+    .align--tabletleft { text-align: start;  }
+    .align--tabletcenter { text-align: center; }
+    .align--tabletright { text-align: end; }
+}
+
+@media (max-width: 767px) {
+    .align--mobileleft { text-align: start; }
+    .align--mobilecenter { text-align: center; }
+    .align--mobileright { text-align: end; }
+}
+
+.elementor-section.elementor-section-boxed.section-1600px {
+    max-width: 1600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    right: 50% !important;
+    transform: translateX(50%) !important;
+}
+
+/* Link */
+.master-link.icon-right .icon { margin-right: 5px; margin-left: 0; }
+.master-link.icon-left .icon { margin-left: 5px; margin-right: 0; }
+
+.line-yes .master-link:after,
+.line-hover .master-link:after {
+    left: 0; right: unset;
+}
+
+.line-hover .master-link:hover:after {
+    left: unset; right: 0;
+}
+
+.url-wrap .master-link, .line-no .master-link {
+    padding-left: 0; padding-right: 20px;
+    margin-left: 0; margin-right: -20px;
+}
+
+.url-wrap .master-link:after, .line-no .master-link:after {
+    right: 0; left: unset;
+}
+
+.url-wrap .master-link:hover, .line-no .master-link:hover {
+    transform: translateX(-20px);
+}
+
+/* Button */
+.master-button.icon-right .icon { 
+    margin-right: 15px; margin-left: 0;
+}
+
+.master-button.icon-left .icon { 
+    margin-left: 15px; margin-right: 0;
+}
+
+.master-button.big.icon-right .icon { 
+    margin-right: 20px; margin-left: 0;
+}
+
+.master-button.big.icon-left .icon { 
+    margin-left: 20px; margin-right: 0;
+}
+
+.master-button.small.icon-right .icon { 
+    margin-right: 10px; margin-left: 0;
+}
+
+.master-button.small.icon-left .icon { 
+    margin-left: 10px; margin-right: 0; 
+}
+
+/* Heading */
+.master-heading .pre-heading {
+    padding-left: 0; padding-right: 20px;
+}
+
+.master-heading .pre-heading .line {
+    width: 10px;
+}
+
+.master-heading .pre-heading .line {
+    right: 0;
+}
+
+/* Call To Action */
+.master-cta .icon {
+    margin: 0 0 0 20px;
+}
+
+/* Icon Text */
+.master-icon-text .icon-wrap {
+    margin-left: 10px; margin-right: 0px;
+}
+
+/* Hover Box */
+.master-hover-box .arrow {
+    left: 0; right: unset;
+}
+
+/* Slider */
+.master-slider .slide ul li {
+    padding-right: 20px; padding-left: 0;
+}
+
+.master-slider .slide ul li::before {
+    left: unset; right: 0;
+}
+
+.arrows-pos-br .master-slider .nav-arrow {
+    flex-direction: row-reverse;
+    left: 0;
+    right: unset;
+}
+
+.arrows-pos-cr .master-slider .nav-arrow {
+    left: 0; right: unset;
+}
+
+.dots-pos-bl .master-slider .nav-dots {
+    right: 0; left: unset;
+}
+
+.dots-pos-br .master-slider .nav-dots {
+    left: 0; right: unset;
+}
+
+/* Carousel */
+.custom-arrow-left .master-carousel-box .flickity-button {
+    right: calc( -85.1% + 75px ); left: unset;
+}
+
+.custom-arrow-left .master-carousel-box .flickity-button.next {
+    right: -85.1%;  left: unset;
+}
+
+.custom-arrow-left2 .master-carousel-box .flickity-button {
+    left: 0; right: calc( -52% + 75px );
+}
+
+.custom-arrow-left2 .master-carousel-box .flickity-button.next {
+    left: 0; right: -52%;
+}
+/* Icon Box */
+.icon-position-left .master-icon-box .icon-wrap {
+    margin-right: 0; margin-left: 25px;
+}
+
+.icon-position-right .master-icon-box .icon-wrap {
+    margin-right: 25px; margin-left: 0;
+}
+
+
+.hover-effect-style-2 .master-icon-box .inner .line {
+    left: 5px;
+    right: unset;
+    transform: rotate(-45deg) scaleY(0);
+}
+
+.hover-effect-style-2 .master-icon-box .inner .line1 {
+    right: 10px;
+}
+
+.hover-effect-style-2 .master-icon-box.active .inner .line {
+    transform: rotate(-45deg) scaleY(1);
+}
+
+/* Project */
+.master-project {
+    text-align: start;
+}
+
+.master-project.style-1 .arrow {
+    left: 20px; right: unset;
+}
+
+.master-project.style-2 .arrow {
+    left: 20px; right: unset;
+}
+
+.master-project.style-3 .content-wrap {
+    left: unset; right: 30px;
+}
+
+.master-project.style-3 .content-wrap > .arrow {
+    left: 0; right: unset;
+}
+
+.master-project.style-4 .content-wrap {
+    padding: 40px 50px 45px 100px;
+}
+
+.master-project.style-4 .content-wrap .arrow {
+    left: 35px; right: unset;
+}
+
+/* News */
+.master-news .post-date {
+    left: unset; right: 20px;
+}
+
+.master-news .post-date.trapezoid {
+    right: 0; left: unset;
+    clip-path: polygon(0% 0%, 100% 28px, 100% calc(100% - 28px), 0% 100%);
+}
+
+.news-style-1 .master-news {
+    text-align: right;
+}
+
+.news-style-2 .master-news .post-meta .item,
+.news-style-3 .master-news .post-meta .item {
+    padding-right: 20px; padding-left: 0;
+}
+
+.news-style-2 .master-news .post-meta .item:after,
+.news-style-3 .master-news .post-meta .item:after {
+    left: unset; right: 0;
+}
+
+.news-style-3 .master-news .post-meta .item {
+    margin-right: 0; margin-left: 10px;
+}
+
+.news-style-3 .master-news .post-date.square {
+    left: 40px; right: unset;
+}
+
+.news-style-4 .master-news .post-date.default {
+    right: 0; left: unset;
+}
+
+.master-news-block .master-news {
+    margin-left: 30px; margin-right: 0;
+}
+
+.master-news-block .master-news.news-1 {
+    margin-left: 30px; margin-right: 0;
+}
+
+.master-news-block .master-news.news-3 {
+    margin-left: 0;
+}
+
+/* Contact Form 7 */
+.cf7-style-1 .agrios-cf7-0 .wpcf7 select {
+    background-position: calc(20px) calc(50% + 3px);
+}
+
+.wpcf7 .ajax-loader {
+    display: none !important;
+}
+
+/* Text Box */
+.master-text-box .icon-wrap {
+    margin-right: 0; margin-left: 5px;
+}
+
+/* Testimonial */
+.testimonial-style-2 .master-testimonial .avatar-wrap .avatar {
+    margin-right: 0; margin-left: 20px;
+}
+
+/* Subscribe form */
+.master-subscribe-form.style-1 .inner-wrap .submit-wrap button {
+    text-indent: 9999px; left: 12px; right: unset;
+}
+
+/* Testimonial Slider */
+.master-testimonial-slider .slick-arrow.slick-prev:after {
+    content: "NEXT";
+}
+
+.master-testimonial-slider .slick-arrow.slick-next:after {
+    content: "PREV";
+}
+
+/* Piechart */
+.pie-chart-inline-yes .master-pie-chart .chart { 
+    margin-left: 20px; margin-right: 0; 
+}
+
+/* Animation */
+@keyframes link-icon { 0% { transform: translateX(0); opacity: 1; } 49% {  transform: translateX(-20px); opacity: 0; } 50% {  transform: translateX(20px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+@keyframes line-moving {
+    0% { transform: translateX(0); }
+    49% { transform: translateX(-110%) }
+    50% { transform: translateX(110%) }
+    100% { transform: translateX(0); }
+}
+
+/* Woocommerce */
+#page .shopengine-single-product-item .add-to-cart-bt .add_to_cart_button {
+    right: 50%; left: unset; transform: translateX(50%);
+}

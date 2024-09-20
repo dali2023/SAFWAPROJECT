@@ -1,0 +1,9 @@
+Version: 1.1.0
+    Added: WPC Smart Quick View for WooCommerce compatibility
+    Added: 3 new product styles for the product feed
+    Added: New functionality for WooCommerce
+    Added: Single product appearance improved
+    Added: Hotspot shortcode
+    Fix: CSS fixes (Booked)
+
+Release: v.1.0.0

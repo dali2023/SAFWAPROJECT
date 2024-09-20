@@ -1,0 +1,632 @@
+0000.000 (0) Opened log file at time: Fri, 20 Sep 2024 15:45:23 +0000 on http://localhost:8585/safwa
+0000.227 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.6.2 PHP: 8.0.30 (apache2handler, Windows NT DESKTOP-LOP55V0 10.0 build 22631 (Windows 10) AMD64) MySQL: 10.4.32-MariaDB (max packet size=1048576) WPLANG: fr_FR Server: Apache/2.4.58 (Win64) OpenSSL/3.1.3 PHP/8.0.30 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 75M | 78M) multisite: N openssl: OpenSSL 1.1.1t  7 Feb 2023 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.360 (0) Free space on disk containing Updraft's temporary directory: 396290.4 MB
+0000.439 (0) Tasks: Backup files: 1 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.562 (0) Semaphore (fd, saw_options) being initialised
+0000.861 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0001.415 (0) Set semaphore last lock (fd) time to 2024-09-20 15:45:24
+0001.529 (0) Semaphore lock (fd) complete
+0001.909 (0) Backup run: resumption=0, nonce=e7cb63f2ee35, file_nonce=e7cb63f2ee35 begun at=1726847123 (2s ago), job type=backup
+0002.198 (0) Scheduling a resumption (1) after 300 seconds (1726847425) in case this run gets aborted
+0002.317 (0) Checking if we have a zip executable available
+0002.574 (0) Creation of backups of directories: beginning
+0003.878 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0006.763 (0) Total entities for the zip file: 1688 directories, 8067 files (0 skipped as non-modified), 164.1 MB
+0006.867 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0007.438 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 100 files added (on-disk size: 294.9 KB)
+0007.867 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 200 files added (on-disk size: 294.9 KB)
+0008.485 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 300 files added (on-disk size: 294.9 KB)
+0008.723 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (25.1 MB, 8067 files batched, 346 (347) added so far); re-opening (prior size: 294.9 KB)
+0010.259 (0) A useful amount of data was added after this amount of zip processing: 3.8 s (normalised: 3.8 s, rate: 6690.5 KB/s)
+0010.422 (0) Performance is good - will increase the amount of data we attempt to batch (time=3.8437631130219, normalised_time=3.8263386059789, max_time=10.330468177795, data points known=1, old_max_bytes=26214400, new_max_bytes=42464672)
+0010.654 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 400 files added (on-disk size: 5915.5 KB)
+0010.884 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 500 files added (on-disk size: 5915.5 KB)
+0011.032 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 600 files added (on-disk size: 5915.5 KB)
+0011.159 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 700 files added (on-disk size: 5915.5 KB)
+0012.089 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 800 files added (on-disk size: 5915.5 KB)
+0012.345 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 900 files added (on-disk size: 5915.5 KB)
+0012.497 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1000 files added (on-disk size: 5915.5 KB)
+0012.681 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1100 files added (on-disk size: 5915.5 KB)
+0012.797 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1200 files added (on-disk size: 5915.5 KB)
+0012.918 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1300 files added (on-disk size: 5915.5 KB)
+0013.022 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19.6 MB, 8067 files batched, 1001 (1348) added so far); re-opening (prior size: 5915.5 KB)
+0028.979 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1400 files added (on-disk size: 12273.9 KB)
+0029.102 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1500 files added (on-disk size: 12273.9 KB)
+0029.218 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1600 files added (on-disk size: 12273.9 KB)
+0029.351 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1700 files added (on-disk size: 12273.9 KB)
+0029.673 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1800 files added (on-disk size: 12273.9 KB)
+0029.860 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 1900 files added (on-disk size: 12273.9 KB)
+0029.958 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2000 files added (on-disk size: 12273.9 KB)
+0030.066 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2100 files added (on-disk size: 12273.9 KB)
+0030.165 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2200 files added (on-disk size: 12273.9 KB)
+0030.279 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2300 files added (on-disk size: 12273.9 KB)
+0030.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.2 MB, 8067 files batched, 1001 (2349) added so far); re-opening (prior size: 12273.9 KB)
+0065.256 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2400 files added (on-disk size: 16342.4 KB)
+0065.338 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2500 files added (on-disk size: 16342.4 KB)
+0065.524 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2600 files added (on-disk size: 16342.4 KB)
+0065.599 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2700 files added (on-disk size: 16342.4 KB)
+0065.648 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2800 files added (on-disk size: 16342.4 KB)
+0065.743 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 2900 files added (on-disk size: 16342.4 KB)
+0065.837 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3000 files added (on-disk size: 16342.4 KB)
+0065.930 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3100 files added (on-disk size: 16342.4 KB)
+0065.980 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3200 files added (on-disk size: 16342.4 KB)
+0066.087 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3300 files added (on-disk size: 16342.4 KB)
+0066.226 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (25.6 MB, 8067 files batched, 1001 (3350) added so far); re-opening (prior size: 16342.4 KB)
+0098.375 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3400 files added (on-disk size: 23862.6 KB)
+0098.629 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3500 files added (on-disk size: 23862.6 KB)
+0098.731 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3600 files added (on-disk size: 23862.6 KB)
+0098.844 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3700 files added (on-disk size: 23862.6 KB)
+0098.946 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3800 files added (on-disk size: 23862.6 KB)
+0099.073 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 3900 files added (on-disk size: 23862.6 KB)
+0099.178 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4000 files added (on-disk size: 23862.6 KB)
+0099.239 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4100 files added (on-disk size: 23862.6 KB)
+0099.347 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4200 files added (on-disk size: 23862.6 KB)
+0099.443 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4300 files added (on-disk size: 23862.6 KB)
+0099.684 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.3 MB, 8067 files batched, 1001 (4351) added so far); re-opening (prior size: 23862.6 KB)
+0119.098 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4400 files added (on-disk size: 25195.1 KB)
+0119.793 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4500 files added (on-disk size: 25195.1 KB)
+0119.919 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4600 files added (on-disk size: 25195.1 KB)
+0120.013 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4700 files added (on-disk size: 25195.1 KB)
+0120.145 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4800 files added (on-disk size: 25195.1 KB)
+0120.274 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 4900 files added (on-disk size: 25195.1 KB)
+0120.371 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5000 files added (on-disk size: 25195.1 KB)
+0120.464 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5100 files added (on-disk size: 25195.1 KB)
+0120.528 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5200 files added (on-disk size: 25195.1 KB)
+0120.652 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5300 files added (on-disk size: 25195.1 KB)
+0120.739 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.5 MB, 8067 files batched, 1001 (5352) added so far); re-opening (prior size: 25195.1 KB)
+0138.621 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5400 files added (on-disk size: 31914.1 KB)
+0138.771 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5500 files added (on-disk size: 31914.1 KB)
+0138.877 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5600 files added (on-disk size: 31914.1 KB)
+0138.980 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5700 files added (on-disk size: 31914.1 KB)
+0139.123 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5800 files added (on-disk size: 31914.1 KB)
+0139.229 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 5900 files added (on-disk size: 31914.1 KB)
+0139.306 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6000 files added (on-disk size: 31914.1 KB)
+0139.395 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6100 files added (on-disk size: 31914.1 KB)
+0139.494 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6200 files added (on-disk size: 31914.1 KB)
+0139.570 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6300 files added (on-disk size: 31914.1 KB)
+0139.669 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (32.4 MB, 8067 files batched, 1001 (6353) added so far); re-opening (prior size: 31914.1 KB)
+0144.195 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6400 files added (on-disk size: 43077.4 KB)
+0144.288 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6500 files added (on-disk size: 43077.4 KB)
+0144.411 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6600 files added (on-disk size: 43077.4 KB)
+0144.530 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6700 files added (on-disk size: 43077.4 KB)
+0144.667 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6800 files added (on-disk size: 43077.4 KB)
+0144.798 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 6900 files added (on-disk size: 43077.4 KB)
+0144.893 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7000 files added (on-disk size: 43077.4 KB)
+0145.734 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7100 files added (on-disk size: 43077.4 KB)
+0145.976 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7200 files added (on-disk size: 43077.4 KB)
+0146.026 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7300 files added (on-disk size: 43077.4 KB)
+0146.093 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (16.2 MB, 8067 files batched, 1001 (7354) added so far); re-opening (prior size: 43077.4 KB)
+0147.903 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7400 files added (on-disk size: 49829.4 KB)
+0147.969 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7500 files added (on-disk size: 49829.4 KB)
+0148.065 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7600 files added (on-disk size: 49829.4 KB)
+0148.167 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7700 files added (on-disk size: 49829.4 KB)
+0148.297 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7800 files added (on-disk size: 49829.4 KB)
+0149.328 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 7900 files added (on-disk size: 49829.4 KB)
+0149.527 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.tmp: 8000 files added (on-disk size: 49829.4 KB)
+0150.794 (0) Creating zip file manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.list-temp.tmp)
+0150.996 (0) Successfully created zip file manifest (size: 684117)
+0152.219 (0) Created plugins zip (0) - 51568.3 KB in 148.1 s (348.2 KB/s) (sha1: 4f8593817b322f2cc487d6ccfb7360f07a199b1a, sha256: 490bc2f5e108f42aed4a44a80eef1d6ed536aec0783b8785f6e2aa0e67ec9d79)
+0152.530 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0152.620 (0) No remote despatch: user chose no remote backup service
+0152.779 (0) Recording as successfully uploaded: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip
+0152.894 (0) Deleting zip manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip.list.tmp)
+0153.044 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0153.132 (0) Number of backup sets in history: 0; groups (db): 1
+0153.222 (0) Number of backup sets in history: 0; groups (files): 1
+0153.324 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0155.377 (0) Beginning creation of dump of themes (split every: 400 MB)
+0155.973 (0) Total entities for the zip file: 254 directories, 1433 files (0 skipped as non-modified), 40.1 MB
+0156.123 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0156.230 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0156.306 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0156.413 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0156.543 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0156.690 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 600 files added (on-disk size: 0 KB)
+0156.827 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 700 files added (on-disk size: 0 KB)
+0156.935 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 800 files added (on-disk size: 0 KB)
+0157.006 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 900 files added (on-disk size: 0 KB)
+0157.108 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0157.172 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (26.9 MB, 1433 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0185.498 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 1100 files added (on-disk size: 9113.8 KB)
+0185.592 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 1200 files added (on-disk size: 9113.8 KB)
+0186.675 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 1300 files added (on-disk size: 9113.8 KB)
+0186.797 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.tmp: 1400 files added (on-disk size: 9113.8 KB)
+0200.819 (0) Creating zip file manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.list-temp.tmp)
+0200.918 (0) Successfully created zip file manifest (size: 108013)
+0203.320 (0) Created themes zip (0) - 20512.6 KB in 46.1 s (445.1 KB/s) (sha1: 31a898fbebf7dcd10c058fb1bf43b4e318b79fe7, sha256: 8b55e30312ba61b15a630451f1d89ee99e136947205979288019257c07a427b8)
+0203.720 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0203.856 (0) No remote despatch: user chose no remote backup service
+0203.993 (0) Recording as successfully uploaded: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip
+0204.130 (0) Deleting zip manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip.list.tmp)
+0204.304 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0204.384 (0) Number of backup sets in history: 0; groups (db): 1
+0204.459 (0) Number of backup sets in history: 0; groups (files): 1
+0204.516 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0204.768 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0204.856 (0) Looking for candidates to backup in: E:\xaamp2024\htdocs\safwa/wp-content/uploads
+0204.914 (0) finding files: 2022: adding to list (1)
+0205.024 (0) finding files: 2024: adding to list (2)
+0205.071 (0) finding files: eb-patterns: adding to list (3)
+0205.117 (0) finding files: elementor: adding to list (4)
+0205.174 (0) finding files: essential-addons-elementor: adding to list (5)
+0205.238 (0) finding files: trx_addons: adding to list (6)
+0205.313 (0) finding files: wc-logs: adding to list (7)
+0205.359 (0) finding files: woocommerce-placeholder.png: adding to list (8)
+0205.426 (0) finding files: woocommerce_uploads: adding to list (9)
+0205.490 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0205.859 (0) Total entities for the zip file: 13 directories, 195 files (0 skipped as non-modified), 21.3 MB
+0205.947 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0222.674 (0) Creating zip file manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-uploads.zip.list-temp.tmp)
+0222.809 (0) Successfully created zip file manifest (size: 9544)
+0224.583 (0) Created uploads zip (0) - 16838.6 KB in 18.9 s (890.3 KB/s) (sha1: 4bb54f9c41451c12c216de9d9f94e33937cd90f7, sha256: ce9b091838120a3fe5a91ab01630d9ea714d10eb88bc3ba8dafaea6c47d19578)
+0224.890 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0225.005 (0) No remote despatch: user chose no remote backup service
+0225.115 (0) Recording as successfully uploaded: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-uploads.zip
+0225.325 (0) Deleting zip manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-uploads.zip.list.tmp)
+0225.528 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0225.632 (0) Number of backup sets in history: 0; groups (db): 1
+0225.723 (0) Number of backup sets in history: 0; groups (files): 1
+0225.805 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0226.133 (0) No backup of mu-plugins: excluded by user's options
+0226.335 (0) Beginning backup of other directories found in the content directory (index: 0)
+0226.424 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0226.527 (0) Looking for candidates to backup in: E:\xaamp2024\htdocs\safwa/wp-content
+0226.616 (0) finding files: index.php: adding to list (1)
+0226.710 (0) finding files: languages: adding to list (2)
+0226.832 (0) finding files: plugins: skipping: this is the plugins directory
+0227.372 (0) finding files: themes: skipping: this is the themes directory
+0227.914 (0) finding files: updraft: skipping: this is the updraft directory
+0228.018 (0) finding files: upgrade: skipping: excluded by options
+0228.138 (0) finding files: upgrade-temp-backup: adding to list (3)
+0228.224 (0) finding files: uploads: skipping: this is the uploads directory
+0228.367 (0) finding files: wflogs: adding to list (4)
+0228.541 (0) Total entities for the zip file: 5 directories, 156 files (0 skipped as non-modified), 13.3 MB
+0228.640 (0) Zip: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0233.842 (0) Creating zip file manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-others.zip.list-temp.tmp)
+0233.897 (0) Successfully created zip file manifest (size: 9861)
+0235.459 (0) Created others zip (0) - 5395.7 KB in 5.8 s (935.6 KB/s) (sha1: a96ec4f8e80ee69dd813f43e45a05f85599affd7, sha256: f03e506df10e713d157868a9bfddc787e55bbc8afaf0ab7f886e3b647db0d31a)
+0235.698 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0235.752 (0) No remote despatch: user chose no remote backup service
+0235.809 (0) Recording as successfully uploaded: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-others.zip
+0235.979 (0) Deleting zip manifest (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-others.zip.list.tmp)
+0236.108 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0236.171 (0) Number of backup sets in history: 0; groups (db): 1
+0236.224 (0) Number of backup sets in history: 0; groups (files): 1
+0236.282 (0) Retain: saving new backup history (sets now: 0) and finishing retain operation
+0237.068 (0) Saving backup status to database (elements: 8)
+0237.196 (0) Beginning creation of database dump (WordPress DB)
+0237.249 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0242.018 (0) Table saw_options: Total expected rows (via COUNT): 500
+0242.227 (0) Table saw_options: Rows added in this batch (next record: 1418): 496 (uncompressed bytes in this segment=1490832) in 4.57 seconds
+0242.557 (0) Table saw_options: finishing file(s) (2, 178 KB)
+0243.652 (0) Table saw_users: Total expected rows (via COUNT): 1
+0244.066 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0244.198 (0) Table saw_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1202) in 0.72 seconds
+0244.403 (0) Table saw_users: finishing file(s) (2, 0.6 KB)
+0244.926 (0) Table saw_usermeta: Total expected rows (via COUNT): 36
+0245.315 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0245.471 (0) Table saw_usermeta: Rows added in this batch (next record: 37): 36 (uncompressed bytes in this segment=4078) in 0.95 seconds
+0245.718 (0) Table saw_usermeta: finishing file(s) (2, 1.8 KB)
+0246.089 (0) Table saw_commentmeta: Total expected rows (via COUNT): 56
+0246.209 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0246.332 (0) Table saw_commentmeta: Rows added in this batch (next record: 56): 56 (uncompressed bytes in this segment=2656) in 0.53 seconds
+0247.041 (0) Table saw_commentmeta: finishing file(s) (2, 0.7 KB)
+0247.660 (0) Table saw_comments: Total expected rows (via COUNT): 13
+0247.755 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0247.870 (0) Table saw_comments: Rows added in this batch (next record: 13): 13 (uncompressed bytes in this segment=7779) in 0.33 seconds
+0248.044 (0) Table saw_comments: finishing file(s) (2, 1.3 KB)
+0248.206 (0) Table saw_links: Total expected rows (via COUNT): 0
+0248.334 (0) Table saw_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1033) in 0.19 seconds
+0248.561 (0) Table saw_links: finishing file(s) (2, 0.5 KB)
+0268.491 (0) Table saw_postmeta: Total expected rows (approximate): 2918
+0274.101 (0) Table saw_postmeta: Rows added in this batch (next record: 4917): 3141 (uncompressed bytes in this segment=9982638) in 25.39 seconds
+0274.564 (0) The time we have been running (274.2) is approaching the resumption interval (300) - increasing resumption interval to 305
+0274.755 (0) The scheduled resumption is within 45 seconds - will reschedule
+0274.835 (0) Rescheduling resumption 1: moving to 350 seconds from now (1726847748)
+0274.965 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 305 + 45 = 350
+0275.056 (0) Table saw_postmeta: finishing file(s) (2, 755 KB)
+0277.571 (0) Table saw_posts: Total expected rows (via COUNT): 603
+0277.690 (0) Table saw_posts: Rows added in this batch (next record: 3365): 603 (uncompressed bytes in this segment=3962059) in 2.51 seconds
+0277.822 (0) Table saw_posts: finishing file(s) (2, 143.9 KB)
+0277.961 (0) Table saw_term_relationships: Total expected rows (approximate): 57
+0278.066 (0) Table saw_term_relationships: Rows added in this batch (next record: 100000): 57 (uncompressed bytes in this segment=1572) in 0.11 seconds
+0278.156 (0) Table saw_term_relationships: finishing file(s) (2, 0.6 KB)
+0278.651 (0) Table saw_term_taxonomy: Total expected rows (via COUNT): 33
+0279.179 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0279.372 (0) Table saw_term_taxonomy: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=2033) in 1.15 seconds
+0279.523 (0) Table saw_term_taxonomy: finishing file(s) (2, 0.7 KB)
+0279.697 (0) Table saw_termmeta: Total expected rows (via COUNT): 15
+0279.737 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0279.806 (0) Table saw_termmeta: Rows added in this batch (next record: 15): 15 (uncompressed bytes in this segment=1132) in 0.20 seconds
+0279.943 (0) Table saw_termmeta: finishing file(s) (2, 0.5 KB)
+0280.018 (0) Table saw_terms: Total expected rows (via COUNT): 33
+0280.053 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0280.166 (0) Table saw_terms: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=1872) in 0.15 seconds
+0280.394 (0) Table saw_terms: finishing file(s) (2, 0.7 KB)
+0280.546 (0) Table saw_actionscheduler_actions: Total expected rows (via COUNT): 12
+0280.564 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0280.611 (0) Table saw_actionscheduler_actions: Rows added in this batch (next record: 19): 12 (uncompressed bytes in this segment=6525) in 0.17 seconds
+0280.814 (0) Table saw_actionscheduler_actions: finishing file(s) (2, 1.2 KB)
+0281.038 (0) Table saw_actionscheduler_claims: Total expected rows (via COUNT): 0
+0281.113 (0) Table saw_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=631) in 0.15 seconds
+0281.222 (0) Table saw_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0281.325 (0) Table saw_actionscheduler_groups: Total expected rows (via COUNT): 2
+0281.386 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0281.625 (0) Table saw_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=675) in 0.33 seconds
+0281.777 (0) Table saw_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0281.956 (0) Table saw_actionscheduler_logs: Total expected rows (via COUNT): 30
+0282.049 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0282.498 (0) Table saw_actionscheduler_logs: Rows added in this batch (next record: 30): 30 (uncompressed bytes in this segment=3557) in 0.61 seconds
+0282.766 (0) Table saw_actionscheduler_logs: finishing file(s) (2, 1 KB)
+0283.010 (0) Table saw_e_events: Total expected rows (via COUNT): 0
+0283.214 (0) Table saw_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=517) in 0.25 seconds
+0283.453 (0) Table saw_e_events: finishing file(s) (2, 0.4 KB)
+0283.666 (0) Table saw_eb_form_settings: Total expected rows (via COUNT): 0
+0283.703 (0) Table saw_eb_form_settings: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=695) in 0.09 seconds
+0283.867 (0) Table saw_eb_form_settings: finishing file(s) (2, 0.4 KB)
+0284.019 (0) Table saw_wc_admin_note_actions: Total expected rows (via COUNT): 86
+0284.058 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0284.140 (0) Table saw_wc_admin_note_actions: Rows added in this batch (next record: 572): 86 (uncompressed bytes in this segment=16883) in 0.22 seconds
+0285.447 (0) Table saw_wc_admin_note_actions: finishing file(s) (2, 2.8 KB)
+0285.632 (0) Table saw_wc_admin_notes: Total expected rows (via COUNT): 59
+0285.672 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0285.746 (0) Table saw_wc_admin_notes: Rows added in this batch (next record: 59): 59 (uncompressed bytes in this segment=29059) in 0.19 seconds
+0285.954 (0) Table saw_wc_admin_notes: finishing file(s) (2, 6.3 KB)
+0286.110 (0) Table saw_wc_category_lookup: Total expected rows (approximate): 6
+0286.191 (0) Table saw_wc_category_lookup: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=651) in 0.08 seconds
+0286.318 (0) Table saw_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0286.616 (0) Table saw_wc_customer_lookup: Total expected rows (via COUNT): 0
+0286.682 (0) Table saw_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1024) in 0.27 seconds
+0286.735 (0) Table saw_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0286.843 (0) Table saw_wc_download_log: Total expected rows (via COUNT): 0
+0286.890 (0) Table saw_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=722) in 0.09 seconds
+0286.942 (0) Table saw_wc_download_log: finishing file(s) (2, 0.4 KB)
+0287.063 (0) Table saw_wc_order_addresses: Total expected rows (via COUNT): 0
+0287.102 (0) Table saw_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1064) in 0.11 seconds
+0287.154 (0) Table saw_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0287.193 (0) Table saw_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0287.250 (0) Table saw_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=721) in 0.06 seconds
+0287.329 (0) Table saw_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0287.405 (0) Table saw_wc_order_operational_data: Total expected rows (via COUNT): 0
+0287.437 (0) Table saw_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1405) in 0.06 seconds
+0287.490 (0) Table saw_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0287.574 (0) Table saw_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0287.610 (0) Table saw_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1221) in 0.06 seconds
+0287.663 (0) Table saw_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0287.971 (0) Table saw_wc_order_stats: Total expected rows (via COUNT): 0
+0288.008 (0) Table saw_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1198) in 0.12 seconds
+0288.078 (0) Table saw_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0288.161 (0) Table saw_wc_order_tax_lookup: Total expected rows (approximate): 0
+0288.176 (0) Table saw_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=799) in 0.02 seconds
+0288.229 (0) Table saw_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0288.331 (0) Table saw_wc_orders: Total expected rows (via COUNT): 0
+0288.369 (0) Table saw_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1423) in 0.07 seconds
+0288.467 (0) Table saw_wc_orders: finishing file(s) (2, 0.5 KB)
+0288.533 (0) Table saw_wc_orders_meta: Total expected rows (via COUNT): 0
+0289.675 (0) Table saw_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=708) in 1.17 seconds
+0289.765 (0) Table saw_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0289.805 (0) Table saw_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0289.875 (0) Table saw_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=837) in 0.07 seconds
+0289.963 (0) Table saw_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0290.028 (0) Table saw_wc_product_download_directories: Total expected rows (via COUNT): 2
+0290.060 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0290.096 (0) Table saw_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=893) in 0.10 seconds
+0290.149 (0) Table saw_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0290.218 (0) Table saw_wc_product_meta_lookup: Total expected rows (via COUNT): 0
+0290.274 (0) Table saw_wc_product_meta_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1302) in 0.09 seconds
+0290.328 (0) Table saw_wc_product_meta_lookup: finishing file(s) (2, 0.5 KB)
+0290.394 (0) Table saw_wc_rate_limits: Total expected rows (via COUNT): 0
+0290.445 (0) Table saw_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=673) in 0.08 seconds
+0290.516 (0) Table saw_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0290.555 (0) Table saw_wc_reserved_stock: Total expected rows (approximate): 0
+0290.623 (0) Table saw_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=669) in 0.07 seconds
+0291.074 (0) Table saw_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0291.154 (0) Table saw_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0291.175 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0291.211 (0) Table saw_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=757) in 0.06 seconds
+0291.284 (0) Table saw_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0291.325 (0) Table saw_wc_webhooks: Total expected rows (via COUNT): 0
+0291.366 (0) Table saw_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1077) in 0.05 seconds
+0291.419 (0) Table saw_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0291.457 (0) Table saw_wfblockediplog: Total expected rows (approximate): 0
+0291.509 (0) Table saw_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.05 seconds
+0291.587 (0) Table saw_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0291.654 (0) Table saw_wfblocks7: Total expected rows (via COUNT): 0
+0291.720 (0) Table saw_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=846) in 0.10 seconds
+0291.779 (0) Table saw_wfblocks7: finishing file(s) (2, 0.4 KB)
+0291.817 (0) Table saw_wfconfig: Total expected rows (approximate): 266
+0294.102 (0) Table saw_wfconfig: Rows added in this batch (next record: 1000): 268 (uncompressed bytes in this segment=3375239) in 2.29 seconds
+0294.239 (0) Table saw_wfconfig: finishing file(s) (2, 1841.1 KB)
+0294.278 (0) Table saw_wfcrawlers: Total expected rows (approximate): 0
+0294.316 (0) Table saw_wfcrawlers: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.04 seconds
+0294.398 (0) Table saw_wfcrawlers: finishing file(s) (2, 0.4 KB)
+0294.437 (0) Table saw_wffilechanges: Total expected rows (approximate): 0
+0294.470 (0) Table saw_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=482) in 0.04 seconds
+0294.526 (0) Table saw_wffilechanges: finishing file(s) (2, 0.3 KB)
+0294.688 (0) Table saw_wffilemods: Total expected rows (approximate): 6707
+0296.821 (0) Table saw_wffilemods: Rows added in this batch (next record: 8000): 7464 (uncompressed bytes in this segment=2947253) in 2.16 seconds
+0297.052 (0) Table saw_wffilemods: finishing file(s) (2, 828.6 KB)
+0297.110 (0) Table saw_wfhits: Total expected rows (via COUNT): 3
+0297.137 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0297.187 (0) Table saw_wfhits: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=2344) in 0.10 seconds
+0297.270 (0) Table saw_wfhits: finishing file(s) (2, 0.8 KB)
+0297.329 (0) Table saw_wfhoover: Total expected rows (via COUNT): 0
+0297.417 (0) Table saw_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=545) in 0.11 seconds
+0297.476 (0) Table saw_wfhoover: finishing file(s) (2, 0.3 KB)
+0297.539 (0) Table saw_wfissues: Total expected rows (via COUNT): 0
+0297.573 (0) Table saw_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=877) in 0.06 seconds
+0297.663 (0) Table saw_wfissues: finishing file(s) (2, 0.4 KB)
+0297.787 (0) Table saw_wfknownfilelist: Total expected rows (approximate): 11179
+0298.128 (0) Table saw_wfknownfilelist: Rows added in this batch (next record: 11004): 11004 (uncompressed bytes in this segment=2079391) in 0.34 seconds
+0299.090 (0) Table saw_wfknownfilelist: finishing file(s) (2, 160.3 KB)
+0299.443 (0) Table saw_wflivetraffichuman: Total expected rows (approximate): 0
+0299.493 (0) Table saw_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=678) in 0.05 seconds
+0299.568 (0) Table saw_wflivetraffichuman: finishing file(s) (2, 0.4 KB)
+0299.624 (0) Table saw_wflocs: Total expected rows (approximate): 2
+0299.886 (0) Table saw_wflocs: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=932) in 0.27 seconds
+0299.965 (0) Table saw_wflocs: finishing file(s) (2, 0.5 KB)
+0300.029 (0) Table saw_wflogins: Total expected rows (via COUNT): 3
+0300.059 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0300.146 (0) Table saw_wflogins: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=1420) in 0.13 seconds
+0300.275 (0) Table saw_wflogins: finishing file(s) (2, 0.6 KB)
+0300.351 (0) Table saw_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0300.472 (0) Table saw_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=711) in 0.15 seconds
+0300.610 (0) Table saw_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0300.662 (0) Table saw_wfls_role_counts: Total expected rows (approximate): 0
+0300.683 (0) Table saw_wfls_role_counts: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=582) in 0.02 seconds
+0300.756 (0) Table saw_wfls_role_counts: finishing file(s) (2, 0.4 KB)
+0300.809 (0) Table saw_wfls_settings: Total expected rows (approximate): 27
+0300.868 (0) Table saw_wfls_settings: Rows added in this batch (next record: 1000): 27 (uncompressed bytes in this segment=1969) in 0.06 seconds
+0300.968 (0) Table saw_wfls_settings: finishing file(s) (2, 0.9 KB)
+0301.087 (0) Table saw_wfnotifications: Total expected rows (approximate): 2
+0301.164 (0) Table saw_wfnotifications: Rows added in this batch (next record: 1000): 2 (uncompressed bytes in this segment=1047) in 0.08 seconds
+0302.050 (0) Table saw_wfnotifications: finishing file(s) (2, 0.6 KB)
+0302.118 (0) Table saw_wfpendingissues: Total expected rows (via COUNT): 0
+0302.152 (0) Table saw_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=902) in 0.05 seconds
+0302.229 (0) Table saw_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0302.302 (0) Table saw_wfreversecache: Total expected rows (approximate): 0
+0302.358 (0) Table saw_wfreversecache: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=527) in 0.06 seconds
+0302.440 (0) Table saw_wfreversecache: finishing file(s) (2, 0.3 KB)
+0302.517 (0) Table saw_wfsecurityevents: Total expected rows (via COUNT): 0
+0302.546 (0) Table saw_wfsecurityevents: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=712) in 0.06 seconds
+0302.622 (0) Table saw_wfsecurityevents: finishing file(s) (2, 0.4 KB)
+0302.691 (0) Table saw_wfsnipcache: Total expected rows (via COUNT): 0
+0302.757 (0) Table saw_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=729) in 0.09 seconds
+0302.839 (0) Table saw_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0302.909 (0) Table saw_wfstatus: Total expected rows (via COUNT): 151
+0302.944 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0303.021 (0) Table saw_wfstatus: Rows added in this batch (next record: 151): 151 (uncompressed bytes in this segment=14969) in 0.13 seconds
+0303.378 (0) Table saw_wfstatus: finishing file(s) (2, 3.7 KB)
+0303.442 (0) Table saw_wftrafficrates: Total expected rows (approximate): 0
+0303.514 (0) Table saw_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=596) in 0.07 seconds
+0303.650 (0) Table saw_wftrafficrates: finishing file(s) (2, 0.4 KB)
+0303.760 (0) Table saw_wfwaffailures: Total expected rows (via COUNT): 0
+0303.783 (0) Table saw_wfwaffailures: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=559) in 0.05 seconds
+0304.205 (0) Table saw_wfwaffailures: finishing file(s) (2, 0.3 KB)
+0304.860 (0) Table saw_woocommerce_api_keys: Total expected rows (via COUNT): 0
+0304.885 (0) Table saw_woocommerce_api_keys: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=879) in 0.11 seconds
+0304.983 (0) Table saw_woocommerce_api_keys: finishing file(s) (2, 0.4 KB)
+0305.095 (0) Table saw_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 0
+0305.153 (0) Table saw_woocommerce_attribute_taxonomies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=841) in 0.09 seconds
+0305.226 (0) Table saw_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.4 KB)
+0305.309 (0) Table saw_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0305.354 (0) Table saw_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1416) in 0.08 seconds
+0305.427 (0) Table saw_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0305.568 (0) Table saw_woocommerce_log: Total expected rows (via COUNT): 0
+0305.624 (0) Table saw_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=648) in 0.15 seconds
+0305.722 (0) Table saw_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0306.417 (0) Table saw_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0306.467 (0) Table saw_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=728) in 0.18 seconds
+0306.593 (0) Table saw_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0306.673 (0) Table saw_woocommerce_order_items: Total expected rows (via COUNT): 0
+0307.020 (0) Table saw_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=683) in 0.38 seconds
+0307.842 (0) Table saw_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0307.959 (0) Table saw_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0308.008 (0) Table saw_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=755) in 0.12 seconds
+0308.105 (0) Table saw_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0308.188 (0) Table saw_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0308.258 (0) Table saw_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=750) in 0.10 seconds
+0308.351 (0) Table saw_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0308.486 (0) Table saw_woocommerce_sessions: Total expected rows (via COUNT): 1
+0308.510 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0308.559 (0) Table saw_woocommerce_sessions: Rows added in this batch (next record: 2): 1 (uncompressed bytes in this segment=2135) in 0.16 seconds
+0308.668 (0) Table saw_woocommerce_sessions: finishing file(s) (2, 0.8 KB)
+0308.916 (0) Table saw_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0309.349 (0) Table saw_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=810) in 0.63 seconds
+0310.203 (0) Table saw_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0310.488 (0) Table saw_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0310.527 (0) Table saw_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=748) in 0.07 seconds
+0310.622 (0) Table saw_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0310.727 (0) Table saw_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0310.792 (0) Table saw_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=608) in 0.10 seconds
+0310.942 (0) Table saw_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0311.019 (0) Table saw_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0311.071 (0) Table saw_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=792) in 0.06 seconds
+0311.143 (0) Table saw_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0311.270 (0) Table saw_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0311.320 (0) Table saw_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1148) in 0.08 seconds
+0311.956 (0) Table saw_woocommerce_tax_rates: finishing file(s) (2, 0.4 KB)
+0312.058 (0) PHP event: code E_WARNING: filemtime(): stat failed for E:\xaamp2024\htdocs\safwa/wp-content/updraft/backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db.gz (line 1925, E:\xaamp2024\htdocs\safwa\wp-content\plugins\updraftplus\backup.php)
+0312.128 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_options.table.tmpr1419.gz (1/76/fopen): adding to final database dump
+0312.201 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_options.table.gz (2/76/fopen): adding to final database dump
+0312.252 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_users.table.tmpr2.gz (3/76/fopen): adding to final database dump
+0312.309 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_users.table.gz (4/76/fopen): adding to final database dump
+0312.367 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_usermeta.table.tmpr38.gz (5/76/fopen): adding to final database dump
+0312.479 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_usermeta.table.gz (6/76/fopen): adding to final database dump
+0312.570 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_commentmeta.table.tmpr57.gz (7/76/fopen): adding to final database dump
+0312.627 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_commentmeta.table.gz (8/76/fopen): adding to final database dump
+0312.776 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_comments.table.tmpr14.gz (9/76/fopen): adding to final database dump
+0313.166 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_comments.table.gz (10/76/fopen): adding to final database dump
+0313.823 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_links.table.tmpr0.gz (11/76/fopen): adding to final database dump
+0313.972 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_links.table.gz (12/76/fopen): adding to final database dump
+0314.040 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_postmeta.table.tmpr4918.gz (13/76/fopen): adding to final database dump
+0314.125 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_postmeta.table.gz (14/76/fopen): adding to final database dump
+0314.210 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_posts.table.tmpr3366.gz (15/76/fopen): adding to final database dump
+0314.270 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_posts.table.gz (16/76/fopen): adding to final database dump
+0314.349 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_term_relationships.table.tmpr100001.gz (17/76/fopen): adding to final database dump
+0314.384 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_term_relationships.table.gz (18/76/fopen): adding to final database dump
+0314.419 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_term_taxonomy.table.tmpr34.gz (19/76/fopen): adding to final database dump
+0314.455 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_term_taxonomy.table.gz (20/76/fopen): adding to final database dump
+0314.502 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_termmeta.table.tmpr16.gz (21/76/fopen): adding to final database dump
+0314.537 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_termmeta.table.gz (22/76/fopen): adding to final database dump
+0314.572 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_terms.table.tmpr34.gz (23/76/fopen): adding to final database dump
+0314.630 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_terms.table.gz (24/76/fopen): adding to final database dump
+0314.676 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_actions.table.tmpr20.gz (25/76/fopen): adding to final database dump
+0314.733 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_actions.table.gz (26/76/fopen): adding to final database dump
+0314.858 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_claims.table.tmpr0.gz (27/76/fopen): adding to final database dump
+0314.906 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_claims.table.gz (28/76/fopen): adding to final database dump
+0314.980 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_groups.table.tmpr3.gz (29/76/fopen): adding to final database dump
+0315.004 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_groups.table.gz (30/76/fopen): adding to final database dump
+0315.039 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_logs.table.tmpr31.gz (31/76/fopen): adding to final database dump
+0315.108 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_actionscheduler_logs.table.gz (32/76/fopen): adding to final database dump
+0315.176 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_e_events.table.tmpr0.gz (33/76/fopen): adding to final database dump
+0315.255 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_e_events.table.gz (34/76/fopen): adding to final database dump
+0315.302 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_eb_form_settings.table.tmpr0.gz (35/76/fopen): adding to final database dump
+0315.327 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_eb_form_settings.table.gz (36/76/fopen): adding to final database dump
+0315.351 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_admin_note_actions.table.tmpr573.gz (37/76/fopen): adding to final database dump
+0315.409 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_admin_note_actions.table.gz (38/76/fopen): adding to final database dump
+0315.523 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_admin_notes.table.tmpr60.gz (39/76/fopen): adding to final database dump
+0315.547 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_admin_notes.table.gz (40/76/fopen): adding to final database dump
+0315.571 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_category_lookup.table.tmpr1001.gz (41/76/fopen): adding to final database dump
+0315.596 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_category_lookup.table.gz (42/76/fopen): adding to final database dump
+0315.621 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_customer_lookup.table.tmpr0.gz (43/76/fopen): adding to final database dump
+0315.656 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_customer_lookup.table.gz (44/76/fopen): adding to final database dump
+0315.713 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_download_log.table.tmpr0.gz (45/76/fopen): adding to final database dump
+0315.760 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_download_log.table.gz (46/76/fopen): adding to final database dump
+0315.817 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_addresses.table.tmpr0.gz (47/76/fopen): adding to final database dump
+0315.907 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_addresses.table.gz (48/76/fopen): adding to final database dump
+0316.444 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_coupon_lookup.table.tmpr1.gz (49/76/fopen): adding to final database dump
+0317.117 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_coupon_lookup.table.gz (50/76/fopen): adding to final database dump
+0317.214 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_operational_data.table.tmpr0.gz (51/76/fopen): adding to final database dump
+0317.260 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_operational_data.table.gz (52/76/fopen): adding to final database dump
+0317.295 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_product_lookup.table.tmpr0.gz (53/76/fopen): adding to final database dump
+0317.374 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_product_lookup.table.gz (54/76/fopen): adding to final database dump
+0317.487 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_stats.table.tmpr0.gz (55/76/fopen): adding to final database dump
+0317.536 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_stats.table.gz (56/76/fopen): adding to final database dump
+0317.582 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_tax_lookup.table.tmpr1.gz (57/76/fopen): adding to final database dump
+0317.607 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_order_tax_lookup.table.gz (58/76/fopen): adding to final database dump
+0317.631 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_orders.table.tmpr0.gz (59/76/fopen): adding to final database dump
+0317.655 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_orders.table.gz (60/76/fopen): adding to final database dump
+0317.679 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_orders_meta.table.tmpr0.gz (61/76/fopen): adding to final database dump
+0317.704 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_orders_meta.table.gz (62/76/fopen): adding to final database dump
+0317.740 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_attributes_lookup.table.tmpr1.gz (63/76/fopen): adding to final database dump
+0317.764 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_attributes_lookup.table.gz (64/76/fopen): adding to final database dump
+0317.788 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_download_directories.table.tmpr3.gz (65/76/fopen): adding to final database dump
+0317.824 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_download_directories.table.gz (66/76/fopen): adding to final database dump
+0317.848 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_meta_lookup.table.tmpr0.gz (67/76/fopen): adding to final database dump
+0317.883 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_product_meta_lookup.table.gz (68/76/fopen): adding to final database dump
+0317.907 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_rate_limits.table.tmpr0.gz (69/76/fopen): adding to final database dump
+0317.944 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_rate_limits.table.gz (70/76/fopen): adding to final database dump
+0317.968 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_reserved_stock.table.tmpr1.gz (71/76/fopen): adding to final database dump
+0317.992 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_reserved_stock.table.gz (72/76/fopen): adding to final database dump
+0318.027 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_tax_rate_classes.table.tmpr3.gz (73/76/fopen): adding to final database dump
+0318.131 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_tax_rate_classes.table.gz (74/76/fopen): adding to final database dump
+0318.417 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_webhooks.table.tmpr0.gz (75/76/fopen): adding to final database dump
+0318.676 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wc_webhooks.table.gz (76/76/fopen): adding to final database dump
+0318.733 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfblockediplog.table.tmpr1.gz (77/76/fopen): adding to final database dump
+0318.757 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfblockediplog.table.gz (78/76/fopen): adding to final database dump
+0318.793 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfblocks7.table.tmpr0.gz (79/76/fopen): adding to final database dump
+0318.817 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfblocks7.table.gz (80/76/fopen): adding to final database dump
+0318.864 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfconfig.table.tmpr1001.gz (81/76/fopen): adding to final database dump
+0318.949 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfconfig.table.gz (82/76/fopen): adding to final database dump
+0319.005 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfcrawlers.table.tmpr1.gz (83/76/fopen): adding to final database dump
+0319.029 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfcrawlers.table.gz (84/76/fopen): adding to final database dump
+0319.065 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wffilechanges.table.tmpr1.gz (85/76/fopen): adding to final database dump
+0319.090 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wffilechanges.table.gz (86/76/fopen): adding to final database dump
+0319.125 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wffilemods.table.tmpr8001.gz (87/76/fopen): adding to final database dump
+0319.525 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wffilemods.table.gz (88/76/fopen): adding to final database dump
+0320.033 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfhits.table.tmpr4.gz (89/76/fopen): adding to final database dump
+0320.086 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfhits.table.gz (90/76/fopen): adding to final database dump
+0320.109 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfhoover.table.tmpr0.gz (91/76/fopen): adding to final database dump
+0320.135 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfhoover.table.gz (92/76/fopen): adding to final database dump
+0320.159 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfissues.table.tmpr0.gz (93/76/fopen): adding to final database dump
+0320.194 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfissues.table.gz (94/76/fopen): adding to final database dump
+0320.218 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfknownfilelist.table.tmpr11005.gz (95/76/fopen): adding to final database dump
+0320.267 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfknownfilelist.table.gz (96/76/fopen): adding to final database dump
+0320.346 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflivetraffichuman.table.tmpr1.gz (97/76/fopen): adding to final database dump
+0320.488 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflivetraffichuman.table.gz (98/76/fopen): adding to final database dump
+0320.662 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflocs.table.tmpr1001.gz (99/76/fopen): adding to final database dump
+0321.645 (0) The time we have been running (320.9) is approaching the resumption interval (350) - increasing resumption interval to 351
+0321.725 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflocs.table.gz (100/76/fopen): adding to final database dump
+0321.798 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflogins.table.tmpr4.gz (101/76/fopen): adding to final database dump
+0321.815 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wflogins.table.gz (102/76/fopen): adding to final database dump
+0321.833 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_2fa_secrets.table.tmpr0.gz (103/76/fopen): adding to final database dump
+0321.868 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_2fa_secrets.table.gz (104/76/fopen): adding to final database dump
+0321.917 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_role_counts.table.tmpr1.gz (105/76/fopen): adding to final database dump
+0321.935 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_role_counts.table.gz (106/76/fopen): adding to final database dump
+0321.974 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_settings.table.tmpr1001.gz (107/76/fopen): adding to final database dump
+0321.992 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfls_settings.table.gz (108/76/fopen): adding to final database dump
+0322.009 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfnotifications.table.tmpr1001.gz (109/76/fopen): adding to final database dump
+0322.049 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfnotifications.table.gz (110/76/fopen): adding to final database dump
+0322.067 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfpendingissues.table.tmpr0.gz (111/76/fopen): adding to final database dump
+0322.223 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfpendingissues.table.gz (112/76/fopen): adding to final database dump
+0322.252 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfreversecache.table.tmpr1.gz (113/76/fopen): adding to final database dump
+0322.281 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfreversecache.table.gz (114/76/fopen): adding to final database dump
+0322.299 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfsecurityevents.table.tmpr0.gz (115/76/fopen): adding to final database dump
+0322.339 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfsecurityevents.table.gz (116/76/fopen): adding to final database dump
+0322.378 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfsnipcache.table.tmpr0.gz (117/76/fopen): adding to final database dump
+0322.407 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfsnipcache.table.gz (118/76/fopen): adding to final database dump
+0322.446 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfstatus.table.tmpr152.gz (119/76/fopen): adding to final database dump
+0322.486 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfstatus.table.gz (120/76/fopen): adding to final database dump
+0322.521 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wftrafficrates.table.tmpr1.gz (121/76/fopen): adding to final database dump
+0322.561 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wftrafficrates.table.gz (122/76/fopen): adding to final database dump
+0322.579 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfwaffailures.table.tmpr0.gz (123/76/fopen): adding to final database dump
+0322.619 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_wfwaffailures.table.gz (124/76/fopen): adding to final database dump
+0322.693 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_api_keys.table.tmpr0.gz (125/76/fopen): adding to final database dump
+0322.758 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_api_keys.table.gz (126/76/fopen): adding to final database dump
+0322.798 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_attribute_taxonomies.table.tmpr0.gz (127/76/fopen): adding to final database dump
+0322.839 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_attribute_taxonomies.table.gz (128/76/fopen): adding to final database dump
+0322.877 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_downloadable_product_permissions.table.tmpr0.gz (129/76/fopen): adding to final database dump
+0322.916 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_downloadable_product_permissions.table.gz (130/76/fopen): adding to final database dump
+0322.956 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_log.table.tmpr0.gz (131/76/fopen): adding to final database dump
+0322.995 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_log.table.gz (132/76/fopen): adding to final database dump
+0323.036 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_order_itemmeta.table.tmpr0.gz (133/76/fopen): adding to final database dump
+0323.064 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_order_itemmeta.table.gz (134/76/fopen): adding to final database dump
+0323.104 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_order_items.table.tmpr0.gz (135/76/fopen): adding to final database dump
+0323.144 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_order_items.table.gz (136/76/fopen): adding to final database dump
+0323.172 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_payment_tokenmeta.table.tmpr0.gz (137/76/fopen): adding to final database dump
+0323.190 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_payment_tokenmeta.table.gz (138/76/fopen): adding to final database dump
+0323.261 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_payment_tokens.table.tmpr0.gz (139/76/fopen): adding to final database dump
+0323.304 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_payment_tokens.table.gz (140/76/fopen): adding to final database dump
+0323.366 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_sessions.table.tmpr3.gz (141/76/fopen): adding to final database dump
+0323.407 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_sessions.table.gz (142/76/fopen): adding to final database dump
+0323.436 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zone_locations.table.tmpr0.gz (143/76/fopen): adding to final database dump
+0323.475 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zone_locations.table.gz (144/76/fopen): adding to final database dump
+0323.515 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zone_methods.table.tmpr0.gz (145/76/fopen): adding to final database dump
+0323.555 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zone_methods.table.gz (146/76/fopen): adding to final database dump
+0323.594 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zones.table.tmpr0.gz (147/76/fopen): adding to final database dump
+0323.611 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_shipping_zones.table.gz (148/76/fopen): adding to final database dump
+0323.641 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_tax_rate_locations.table.tmpr0.gz (149/76/fopen): adding to final database dump
+0323.680 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_tax_rate_locations.table.gz (150/76/fopen): adding to final database dump
+0323.719 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_tax_rates.table.tmpr0.gz (151/76/fopen): adding to final database dump
+0323.748 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db-table-saw_woocommerce_tax_rates.table.gz (152/76/fopen): adding to final database dump
+0324.913 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db.gz: finished writing out complete database file (3952.9 KB)
+0325.092 (0) Total database tables backed up: 76 (backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db.gz, size: 4047874, sha1: 0c88d3930fa476f9eab9fe0b15ac2b0877b51a7b, sha256: 2c5b68beb696e6cca473cff8c3303e9a2d46f82e87f120a9e6b1941329f1af31)
+0325.184 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-plugins.zip: plugins: This file has already been successfully uploaded
+0325.202 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-themes.zip: themes: This file has already been successfully uploaded
+0325.220 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-uploads.zip: uploads: This file has already been successfully uploaded
+0325.238 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-others.zip: others: This file has already been successfully uploaded
+0325.256 (0) backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db.gz: db: This file has not yet been successfully uploaded: will queue
+0325.273 (0) Saving backup history. Total backup size: 96 MB
+0325.308 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0325.450 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0325.492 (0) No remote despatch: user chose no remote backup service
+0325.510 (0) Recording as successfully uploaded: backup_2024-09-20-1745_SAFWA_e7cb63f2ee35-db.gz
+0325.585 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0325.603 (0) Number of backup sets in history: 1; groups (db): 1
+0325.620 (0) Examining (for databases) backup set with group_id=0, nonce=e7cb63f2ee35, datestamp=1726847123 (Sep 20 2024 15:45:23)
+0325.648 (0) This backup set is the backup set just made, so will not be deleted.
+0325.648 (0) Number of backup sets in history: 1; groups (files): 1
+0325.695 (0) Examining (for files) backup set with nonce=e7cb63f2ee35, datestamp=1726847123 (Sep 20 2024 15:45:23)
+0325.695 (0) This backup set is the backup set just made, so will not be deleted.
+0325.724 (0) This backup set is the backup set just made, so will not be deleted.
+0325.724 (0) This backup set is the backup set just made, so will not be deleted.
+0325.724 (0) This backup set is the backup set just made, so will not be deleted.
+0325.724 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0325.753 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0325.810 (0) Resume backup (e7cb63f2ee35, 0): finish run
+0326.143 (0) Decremented the semaphore (fd) by 1
+0326.295 (0) Semaphore (fd) unlocked
+0326.324 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0326.421 (0) No email will/can be sent - the user has not configured an email address.
+0326.460 (0) The backup succeeded and is now complete

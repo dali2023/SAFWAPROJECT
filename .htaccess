@@ -1,0 +1,62 @@
+# BEGIN HMWP_RULES
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule ^([0-9a-zA-Z_-]+/)?adminsafwa/(.*) /safwa/wp-admin/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?newlogin$ /safwa/wp-login.php [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?newlogin/(.*) /safwa/wp-login.php$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?lostpass$ /safwa/wp-login.php?action=lostpassword [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?register$ /safwa/wp-login.php?action=register [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/fabe3a944a/(.*) /safwa/wp-content/plugins/classic-widgets/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/c57eee3437/(.*) /safwa/wp-content/plugins/disable-comments-rb/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/f65f29574d/(.*) /safwa/wp-content/plugins/elementor/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/5aa65eff65/(.*) /safwa/wp-content/plugins/essential-addons-elementor/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/9097659473/(.*) /safwa/wp-content/plugins/essential-addons-for-elementor-lite/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/f42042aa40/(.*) /safwa/wp-content/plugins/essential-blocks/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/d0f4711431/(.*) /safwa/wp-content/plugins/hide-my-wp/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/8c6b2640d1/(.*) /safwa/wp-content/plugins/mailchimp-for-wp/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/aab5dc6e20/(.*) /safwa/wp-content/plugins/master-addons/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/3c73a9a879/(.*) /safwa/wp-content/plugins/masterlayer-addons-for-elementor/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/9e697a2d5d/(.*) /safwa/wp-content/plugins/metform/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/3859446dfb/(.*) /safwa/wp-content/plugins/one-click-demo-import/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/fc7e3ccd56/(.*) /safwa/wp-content/plugins/svg-support/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/3483f62d4f/(.*) /safwa/wp-content/plugins/team-members/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/5f535e89d2/(.*) /safwa/wp-content/plugins/wordfence/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/ecefbf3ab8/(.*) /safwa/wp-content/plugins/wp-reset/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/c6bdfbc569/(.*) /safwa/wp-content/plugins/wp-social/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/modules/(.*) /safwa/wp-content/plugins/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/bca0752c08/design.css$ /safwa/wp-content/themes/agricola/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/bca0752c08/(.*) /safwa/wp-content/themes/agricola/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/bf07c92103/design.css$ /safwa/wp-content/themes/agrios/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/bf07c92103/(.*) /safwa/wp-content/themes/agrios/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/51a12ba5b2/design.css$ /safwa/wp-content/themes/twentytwentyfour/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/51a12ba5b2/(.*) /safwa/wp-content/themes/twentytwentyfour/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/96f874eecb/design.css$ /safwa/wp-content/themes/twentytwentyone/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/96f874eecb/(.*) /safwa/wp-content/themes/twentytwentyone/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/a37e87dcf0/design.css$ /safwa/wp-content/themes/twentytwentythree/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/a37e87dcf0/(.*) /safwa/wp-content/themes/twentytwentythree/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/70da61391b/design.css$ /safwa/wp-content/themes/twentytwentytwo/style.css [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/70da61391b/(.*) /safwa/wp-content/themes/twentytwentytwo/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/views/(.*) /safwa/wp-content/themes/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?storage/(.*) /safwa/wp-content/uploads/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?core/(.*) /safwa/wp-content/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?lib/(.*) /safwa/wp-includes/$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?comments/(.*) /safwa/wp-comments-post.php$2 [QSA,L]
+RewriteRule ^([0-9a-zA-Z_-]+/)?writer/(.*) /safwa/author/$2 [QSA,L]
+</IfModule>
+
+# END HMWP_RULES
+# BEGIN WordPress
+# Les directives (lignes) entre « BEGIN WordPress » et « END WordPress » sont générées
+# dynamiquement, et doivent être modifiées uniquement via les filtres WordPress.
+# Toute modification des directives situées entre ces marqueurs sera surchargée.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /safwa/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /safwa/index.php [L]
+</IfModule>
+
+# END WordPress

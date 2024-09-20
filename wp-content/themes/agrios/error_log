@@ -1,0 +1,4 @@
+[28-Aug-2023 03:48:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/cighknaaepdn/public_html/agrios/wp-content/themes/agrios/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/cighknaaepdn/public_html/agrios/wp-content/themes/agrios/index.php on line 1
